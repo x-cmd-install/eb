@@ -7,7 +7,7 @@ about:
   head: 350ad87
   archived: false
   latestVersion: v0.5.0
-  collectedAt: 2026-09-04T20:06:58Z
+  collectedAt: 2026-09-04T20:36:47Z
 timeline:
   created: 2019-07-11
   lastCommit: 2026-07-15
@@ -82,7 +82,7 @@ total:
   commit: 534
 ---
 path: /home/runner/.x-repo/github.com/rye/eb
-collectedAt: 2026-09-04T20:06:59Z
+collectedAt: 2026-09-04T20:36:48Z
 loc:
   Rust:
     code: 336
