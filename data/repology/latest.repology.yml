@@ -1,0 +1,1161 @@
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: raspbian_stable
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: debian_14
+  subrepo: forky/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: alt_p11
+  srcname: eb
+  binnames:
+    - eb
+    - eb-debuginfo
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-alt1
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  maintainers:
+    - rider@altlinux.org
+  licenses:
+    - BSD
+  categories:
+    - System/Libraries
+- repo: altsisyphus
+  srcname: eb
+  binnames:
+    - eb
+    - eb-debuginfo
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-alt3
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  maintainers:
+    - rider@altlinux.org
+  licenses:
+    - BSD
+  categories:
+    - System/Libraries
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: deepin_unstable
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
+  status: newest
+  maintainers:
+    - tats@debian.org
+- repo: deepin_23
+  subrepo: community
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: deepin_25
+  subrepo: community
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: epel_6
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-4.el6
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Libraries
+- repo: epel_7
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-4.el7
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD
+  categories:
+    - System Environment/Libraries
+- repo: epel_8
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.el8
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-22.fc39
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-22.fc39
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-25.fc40
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-26.fc41
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-26.fc41
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-29.fc43
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-30.fc44
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-31.fc45
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: japanese/eb
+  binname: ja-eb
+  visiblename: japanese/eb
+  version: 4.4.3
+  origversion: 4.4.3_6
+  status: newest
+  summary: C library for accessing EB, EBG, EBXA, and EPWING CD-ROM dictionaries
+  maintainers:
+    - mce@freebsd.org
+  categories:
+    - japanese
+- repo: gentoo
+  srcname: dev-libs/eb
+  visiblename: dev-libs/eb
+  version: 4.4.3
+  origversion: null
+  status: newest
+  summary: EB is a C library and utilities for accessing CD-ROM books
+  maintainers:
+    - maintainer-needed@gentoo.org
+  licenses:
+    - BSD
+  categories:
+    - dev-libs
+- repo: gentoo
+  srcname: dev-libs/eb
+  visiblename: dev-libs/eb
+  version: 4.4.3
+  origversion: 4.4.3-r1
+  status: newest
+  summary: EB is a C library and utilities for accessing CD-ROM books
+  maintainers:
+    - maintainer-needed@gentoo.org
+  licenses:
+    - BSD
+  categories:
+    - dev-libs
+- repo: kali_rolling
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: liguros_stable
+  srcname: dev-libs/eb
+  visiblename: dev-libs/eb
+  version: 4.4.3
+  origversion: 4.4.3-r1
+  status: newest
+  summary: EB is a C library and utilities for accessing CD-ROM books
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - BSD
+  categories:
+    - dev-libs
+- repo: liguros_stable
+  srcname: dev-libs/eb
+  visiblename: dev-libs/eb
+  version: 4.4.3
+  origversion: null
+  status: newest
+  summary: EB is a C library and utilities for accessing CD-ROM books
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - BSD
+  categories:
+    - dev-libs
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-bp155.2.16
+  status: newest
+  summary: C Library for Accessing CD-ROM Books
+  licenses:
+    - GPL-2.0+
+  categories:
+    - System/Libraries
+- repo: liguros_develop
+  srcname: dev-libs/eb
+  visiblename: dev-libs/eb
+  version: 4.4.3
+  origversion: null
+  status: newest
+  summary: EB is a C library and utilities for accessing CD-ROM books
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - BSD
+  categories:
+    - dev-libs
+- repo: liguros_develop
+  srcname: dev-libs/eb
+  visiblename: dev-libs/eb
+  version: 4.4.3
+  origversion: 4.4.3-r1
+  status: newest
+  summary: EB is a C library and utilities for accessing CD-ROM books
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - BSD
+  categories:
+    - dev-libs
+- repo: macports
+  srcname: textproc/eb
+  binname: eb
+  visiblename: eb
+  version: 4.5-20220808
+  origversion: null
+  status: ignored
+  summary: C library for accessing CD-ROM books of EB, EBG, EBXA and EPWING formats, with UTF-8 support
+  maintainers:
+    - nomaintainer@macports.org
+  licenses:
+    - BSD
+  categories:
+    - textproc
+- repo: mageia_10
+  subrepo: core/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-8.mga10
+  status: newest
+  summary: Library for reading EB/EPWING files
+  licenses:
+    - BSD
+  categories:
+    - System/Internationalization
+- repo: mageia_9
+  subrepo: core/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-6.mga9
+  status: newest
+  summary: Library for reading EB/EPWING files
+  licenses:
+    - BSD
+  categories:
+    - System/Internationalization
+- repo: mageia_cauldron
+  subrepo: core/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-8.mga10
+  status: newest
+  summary: Library for reading EB/EPWING files
+  licenses:
+    - BSD
+  categories:
+    - System/Internationalization
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-1
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-2
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-1
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-2
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-1
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-2
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-bp156.3.6
+  status: newest
+  summary: C Library for Accessing CD-ROM Books
+  licenses:
+    - GPL-2.0+
+  categories:
+    - System/Libraries
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: eb
+  binnames:
+    - eb
+    - eb-debuginfo
+    - eb-debugsource
+    - libeb16
+    - eb-devel
+    - eb-lang
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-7.5
+  status: newest
+  summary: C Library for Accessing CD-ROM Books
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Libraries
+- repo: pardus_21
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: pclinuxos
+  srcname: eb
+  visiblename: eb
+  version: 4.2.2
+  origversion: 4.2.2-3pclos2007
+  status: legacy
+  summary: Eb is a library for reading EB/EPWING files
+  maintainers:
+    - texstar@gmail.com
+  categories:
+    - System/Internationalization
+- repo: pclinuxos
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-1pclos2025
+  status: newest
+  summary: Library for reading EB/EPWING files
+  categories:
+    - System/Internationalization
+- repo: pkgsrc_2026_1
+  srcname: textproc/eb
+  binname: eb
+  visiblename: textproc/eb
+  version: "4.3"
+  origversion: 4.3nb13
+  status: outdated
+  summary: C library for accessing EB, EBG, EBXA and EPWING CD-ROM dictionaries
+  maintainers:
+    - uebayasi@netbsd.org
+  categories:
+    - textproc
+- repo: pkgsrc_2026_2
+  srcname: textproc/eb
+  binname: eb
+  visiblename: textproc/eb
+  version: "4.3"
+  origversion: 4.3nb13
+  status: outdated
+  summary: C library for accessing EB, EBG, EBXA and EPWING CD-ROM dictionaries
+  maintainers:
+    - uebayasi@netbsd.org
+  categories:
+    - textproc
+- repo: pkgsrc_current
+  srcname: textproc/eb
+  binname: eb
+  visiblename: textproc/eb
+  version: "4.3"
+  origversion: 4.3nb13
+  status: outdated
+  summary: C library for accessing EB, EBG, EBXA and EPWING CD-ROM dictionaries
+  maintainers:
+    - uebayasi@netbsd.org
+  categories:
+    - textproc
+- repo: pld
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-6
+  status: newest
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: eb
+  binnames:
+    - eb-doc
+    - eb-utils
+    - libeb16
+    - libeb16-dev
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - doc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: eb
+  binnames:
+    - eb-doc
+    - eb-utils
+    - libeb16
+    - libeb16-dev
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - doc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: eb
+  binnames:
+    - eb-doc
+    - eb-utils
+    - libeb16-dev
+    - libeb16t64
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - doc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-1
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: eb
+  binnames:
+    - eb
+    - lib64eb16
+    - lib64eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-2
+  status: newest
+  summary: Library for reading EB/EPWING files
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - BSD-like
+  categories:
+    - System/Internationalization
+- repo: slackbuilds
+  srcname: libraries/eb
+  visiblename: libraries/eb
+  version: 4.4.3
+  origversion: null
+  status: newest
+  maintainers:
+    - lin.ruohshoei+sbo@gmail.com
+  categories:
+    - libraries
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-7
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-9
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.2
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4build1
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4build1
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: eb
+  binname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3_3
+  status: newest
+  summary: C library and tools for accessing CD-ROM books
+  maintainers:
+    - me@johnnynator.dev
+  licenses:
+    - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: eb
+  binname: libeb
+  visiblename: libeb
+  version: 4.4.3
+  origversion: 4.4.3_3
+  status: newest
+  summary: C library and tools for accessing CD-ROM books - Library
+  maintainers:
+    - me@johnnynator.dev
+  licenses:
+    - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: eb
+  binname: libeb-devel
+  visiblename: libeb-devel
+  version: 4.4.3
+  origversion: 4.4.3_3
+  status: newest
+  summary: C library and tools for accessing CD-ROM books - development files
+  maintainers:
+    - me@johnnynator.dev
+  licenses:
+    - BSD-3-Clause
