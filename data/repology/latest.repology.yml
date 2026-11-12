@@ -1,165 +1,3 @@
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: raspbian_stable
-  subrepo: main
-  srcname: eb
-  binnames:
-    - libeb16t64
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14.3
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: raspbian_testing
-  subrepo: main
-  srcname: eb
-  binnames:
-    - libeb16t64
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14.4
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: pld
-  srcname: eb
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-6
-  status: newest
-- repo: deepin_25
-  subrepo: community
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14
-  status: newest
-  maintainers:
-    - tats@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-13
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: eb
-  binnames:
-    - libeb16t64
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14.4
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: eb
-  binnames:
-    - eb-doc
-    - eb-utils
-    - libeb16
-    - libeb16-dev
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-12
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - doc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: eb
-  binnames:
-    - eb-doc
-    - eb-utils
-    - libeb16
-    - libeb16-dev
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-13
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - doc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-12
-  status: newest
-  maintainers:
-    - tats@debian.org
-- repo: deepin_23
-  subrepo: community
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
 - repo: alt_p11
   srcname: eb
   binnames:
@@ -274,17 +112,82 @@
     - tats@debian.org
   categories:
     - libs
-- repo: epel_6
+- repo: deepin_unstable
+  subrepo: main
   srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
   visiblename: eb
   version: 4.4.3
-  origversion: 4.4.3-4.el6
+  origversion: 4.4.3-12
   status: newest
-  summary: Library for accessing Japanese CD-ROM electronic books
-  licenses:
-    - BSD
+  maintainers:
+    - tats@debian.org
+- repo: deepin_23
+  subrepo: community
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
   categories:
-    - System Environment/Libraries
+    - libs
+- repo: deepin_25
+  subrepo: community
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
 - repo: epel_7
   srcname: eb
   visiblename: eb
@@ -500,22 +403,6 @@
     - BSD
   categories:
     - dev-libs
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: eb
-  binnames:
-    - eb-doc
-    - eb-utils
-    - libeb16-dev
-    - libeb16t64
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14.3
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - doc
 - repo: liguros_stable
   srcname: dev-libs/eb
   visiblename: dev-libs/eb
@@ -880,6 +767,108 @@
     - uebayasi@netbsd.org
   categories:
     - textproc
+- repo: pld
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-6
+  status: newest
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: eb
+  binnames:
+    - eb-doc
+    - eb-utils
+    - libeb16
+    - libeb16-dev
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - doc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: eb
+  binnames:
+    - eb-doc
+    - eb-utils
+    - libeb16
+    - libeb16-dev
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-13
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - doc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: eb
+  binnames:
+    - eb-doc
+    - eb-utils
+    - libeb16-dev
+    - libeb16t64
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - doc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: raspbian_stable
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: raspbian_testing
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: eb
