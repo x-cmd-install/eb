@@ -41,7 +41,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.5.0` (2021-10-04)
-- **Last commit**: 2026-07-15
+- **Last commit**: 2026-11-13
 
 ## Popularity
 
@@ -49,18 +49,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 11 · **Merged PRs**: 212 · **Open PRs**: 8 · **Closed issues**: 8 · **Open issues**: 8 · **Commits**: 534
+- **Releases**: 11 · **Merged PRs**: 214 · **Open PRs**: 8 · **Closed issues**: 8 · **Open issues**: 8 · **Commits**: 539
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-13 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-14 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-05-16 | 0 | 6 | 4 | 0 | 0 | 12 |
-| 360d | 2025-11-17 | 0 | 7 | 4 | 0 | 0 | 12 |
-| last720d | 2024-11-22 | 0 | 19 | 8 | 1 | 0 | 55 |
+| 30d | 2026-10-14 | 0 | 1 | 6 | 0 | 0 | 3 |
+| last60d | 2026-09-14 | 0 | 1 | 7 | 0 | 0 | 3 |
+| 90d | 2026-08-15 | 0 | 1 | 7 | 0 | 0 | 3 |
+| last180d | 2026-05-17 | 0 | 8 | 7 | 0 | 0 | 15 |
+| 360d | 2025-11-18 | 0 | 9 | 7 | 0 | 0 | 15 |
+| last720d | 2024-11-23 | 0 | 21 | 8 | 1 | 0 | 60 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for eb lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T08:04:33Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:24:40Z._
