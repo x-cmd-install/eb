@@ -25,13 +25,13 @@ Total: **392** lines of code across **12** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.6 / 10**
+Overall score: **4.3 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Maintained** (4/10) — 5 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 4
+- **Code-Review** (0/10) — Found 0/8 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/10 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -49,22 +49,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 11 · **Merged PRs**: 214 · **Open PRs**: 10 · **Closed issues**: 8 · **Open issues**: 8 · **Commits**: 539
+- **Releases**: 11 · **Merged PRs**: 214 · **Open PRs**: 11 · **Closed issues**: 8 · **Open issues**: 8 · **Commits**: 539
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 1 | 7 | 0 | 0 | 3 |
-| last60d | 2026-09-18 | 0 | 1 | 9 | 0 | 0 | 3 |
-| 90d | 2026-08-19 | 0 | 1 | 9 | 0 | 0 | 3 |
-| last180d | 2026-05-21 | 0 | 8 | 9 | 0 | 0 | 15 |
-| 360d | 2025-11-22 | 0 | 9 | 9 | 0 | 0 | 15 |
-| last720d | 2024-11-27 | 0 | 20 | 10 | 1 | 0 | 55 |
+| 30d | 2026-10-20 | 0 | 1 | 7 | 0 | 0 | 3 |
+| last60d | 2026-09-20 | 0 | 1 | 9 | 0 | 0 | 3 |
+| 90d | 2026-08-21 | 0 | 1 | 9 | 0 | 0 | 3 |
+| last180d | 2026-05-23 | 0 | 8 | 9 | 0 | 0 | 15 |
+| 360d | 2025-11-24 | 0 | 9 | 9 | 0 | 0 | 15 |
+| last720d | 2024-11-29 | 0 | 20 | 11 | 1 | 0 | 55 |
 
 ## Distribution status
 
-Reported by **76** distros on [repology.org](https://repology.org/project/eb). **71** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
+Reported by **75** distros on [repology.org](https://repology.org/project/eb). **70** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for eb lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:59:27Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T07:53:47Z._
