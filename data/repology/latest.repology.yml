@@ -228,23 +228,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: eb
-  binnames:
-    - eb
-    - eb-devel
-    - eb-debuginfo
-    - eb-debugsource
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-25.fc40
-  status: newest
-  summary: Library for accessing Japanese CD-ROM electronic books
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: eb
   binnames:
@@ -259,6 +242,23 @@
   summary: Library for accessing Japanese CD-ROM electronic books
   licenses:
     - BSD
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: eb
+  binnames:
+    - eb
+    - eb-devel
+    - eb-debuginfo
+    - eb-debugsource
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-25.fc40
+  status: newest
+  summary: Library for accessing Japanese CD-ROM electronic books
+  licenses:
+    - BSD-3-Clause
   categories:
     - Unspecified
 - repo: fedora_41
@@ -291,22 +291,6 @@
     - BSD-3-Clause
   categories:
     - Unspecified
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-9
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - universe/libs
 - repo: fedora_43
   subrepo: release
   srcname: eb
@@ -487,24 +471,6 @@
     - BSD
   categories:
     - textproc
-- repo: mageia_9
-  subrepo: core/release
-  srcname: eb
-  binnames:
-    - eb
-    - lib64eb16
-    - lib64eb-devel
-    - eb-debuginfo
-    - eb-debugsource
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-6.mga9
-  status: newest
-  summary: Library for reading EB/EPWING files
-  licenses:
-    - BSD
-  categories:
-    - System/Internationalization
 - repo: mageia_10
   subrepo: core/release
   srcname: eb
@@ -675,22 +641,6 @@
     - GPL-2.0+
   categories:
     - System/Libraries
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-12
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - universe/libs
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: eb
@@ -975,6 +925,38 @@
   visiblename: eb
   version: 4.4.3
   origversion: 4.4.3-7
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-9
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - universe/libs
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: eb
+  binnames:
+    - libeb16
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-12
   status: newest
   maintainers:
     - tats@debian.org
