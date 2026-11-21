@@ -55,16 +55,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 1 | 7 | 0 | 0 | 3 |
-| last60d | 2026-09-21 | 0 | 1 | 8 | 0 | 0 | 3 |
-| 90d | 2026-08-22 | 0 | 1 | 9 | 0 | 0 | 3 |
-| last180d | 2026-05-24 | 0 | 8 | 9 | 0 | 0 | 15 |
-| 360d | 2025-11-25 | 0 | 9 | 9 | 0 | 0 | 15 |
-| last720d | 2024-11-30 | 0 | 20 | 11 | 1 | 0 | 54 |
+| 30d | 2026-10-22 | 0 | 1 | 7 | 0 | 0 | 3 |
+| last60d | 2026-09-22 | 0 | 1 | 8 | 0 | 0 | 3 |
+| 90d | 2026-08-23 | 0 | 1 | 9 | 0 | 0 | 3 |
+| last180d | 2026-05-25 | 0 | 8 | 9 | 0 | 0 | 15 |
+| 360d | 2025-11-26 | 0 | 9 | 9 | 0 | 0 | 15 |
+| last720d | 2024-12-01 | 0 | 20 | 11 | 1 | 0 | 54 |
 
 ## Distribution status
 
-Reported by **75** distros on [repology.org](https://repology.org/project/eb). **70** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
+Reported by **74** distros on [repology.org](https://repology.org/project/eb). **69** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for eb lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:49:58Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:36:13Z._
