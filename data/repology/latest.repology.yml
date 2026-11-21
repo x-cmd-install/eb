@@ -1,3 +1,55 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.4
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: eb
+  binnames:
+    - libeb16t64
+    - libeb16-dev
+    - eb-utils
+    - eb-doc
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-14.3
+  status: newest
+  maintainers:
+    - tats@debian.org
+  categories:
+    - libs
+- repo: pclinuxos
+  srcname: eb
+  visiblename: eb
+  version: 4.2.2
+  origversion: 4.2.2-3pclos2007
+  status: legacy
+  summary: Eb is a library for reading EB/EPWING files
+  maintainers:
+    - texstar@gmail.com
+  categories:
+    - System/Internationalization
+- repo: pclinuxos
+  srcname: eb
+  visiblename: eb
+  version: 4.4.3
+  origversion: 4.4.3-1pclos2025
+  status: newest
+  summary: Library for reading EB/EPWING files
+  categories:
+    - System/Internationalization
 - repo: alt_p11
   srcname: eb
   binnames:
@@ -112,20 +164,6 @@
     - tats@debian.org
   categories:
     - libs
-- repo: deepin_unstable
-  subrepo: main
-  srcname: eb
-  binnames:
-    - libeb16
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-12
-  status: newest
-  maintainers:
-    - tats@debian.org
 - repo: deepin_23
   subrepo: community
   srcname: eb
@@ -692,42 +730,6 @@
     - tats@debian.org
   categories:
     - libs
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: eb
-  binnames:
-    - libeb16t64
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14.3
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: pclinuxos
-  srcname: eb
-  visiblename: eb
-  version: 4.2.2
-  origversion: 4.2.2-3pclos2007
-  status: legacy
-  summary: Eb is a library for reading EB/EPWING files
-  maintainers:
-    - texstar@gmail.com
-  categories:
-    - System/Internationalization
-- repo: pclinuxos
-  srcname: eb
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-1pclos2025
-  status: newest
-  summary: Library for reading EB/EPWING files
-  categories:
-    - System/Internationalization
 - repo: pkgsrc_2026_2
   srcname: textproc/eb
   binname: eb
@@ -845,22 +847,6 @@
   visiblename: eb
   version: 4.4.3
   origversion: 4.4.3-14.3
-  status: newest
-  maintainers:
-    - tats@debian.org
-  categories:
-    - libs
-- repo: raspbian_testing
-  subrepo: main
-  srcname: eb
-  binnames:
-    - libeb16t64
-    - libeb16-dev
-    - eb-utils
-    - eb-doc
-  visiblename: eb
-  version: 4.4.3
-  origversion: 4.4.3-14.4
   status: newest
   maintainers:
     - tats@debian.org
