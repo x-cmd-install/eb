@@ -2,15 +2,15 @@ about:
   description: "♻️ Run commands with exponential backoff 📈"
   license: GPL-3.0
   homepage: 
-  head: 19338f6
+  head: dc1c14e
   archived: false
   latestVersion: "v0.5.0"
   latestRelease: "v0.5.0"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:03:58Z
+  collectedAt: 2026-11-28T08:24:10Z
 timeline:
   created: 2019-07-11
-  lastCommit: 2026-11-13
+  lastCommit: 2026-11-27
   lastVersion: 2021-10-04
   lastRelease: 2021-10-04
   lastPrerelease: 
@@ -23,94 +23,94 @@ popularity:
   pullRequest: 519
   issue: 16
 language:
-  Rust: 11086
-  Shell: 716
-totalBytes: 11802
+  Rust: 17463
+  Shell: 463
+totalBytes: 17926
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 1
-    openPR: 8
+    mergedPR: 4
+    openPR: 5
     closedIssue: 0
     openIssue: 0
-    commit: 3
+    commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 1
-    openPR: 9
+    mergedPR: 4
+    openPR: 6
     closedIssue: 0
     openIssue: 0
-    commit: 3
+    commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
-    mergedPR: 1
-    openPR: 10
+    mergedPR: 4
+    openPR: 7
     closedIssue: 0
     openIssue: 0
-    commit: 3
+    commit: 0
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
-    mergedPR: 8
-    openPR: 10
+    mergedPR: 11
+    openPR: 7
     closedIssue: 0
     openIssue: 0
-    commit: 15
+    commit: 0
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
-    mergedPR: 9
-    openPR: 10
+    mergedPR: 12
+    openPR: 7
     closedIssue: 0
     openIssue: 0
-    commit: 15
+    commit: 0
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
-    mergedPR: 16
-    openPR: 12
+    mergedPR: 19
+    openPR: 9
     closedIssue: 1
     openIssue: 0
-    commit: 53
+    commit: 59
 total:
   release: 11
-  mergedPR: 214
-  openPR: 12
-  closedIssue: 8
-  openIssue: 8
-  commit: 539
+  mergedPR: 217
+  openPR: 9
+  closedIssue: 10
+  openIssue: 6
+  commit: 545
 ---
 path: /home/runner/.x-repo/github.com/rye/eb
-collectedAt: 2026-11-27T10:03:58Z
+collectedAt: 2026-11-28T08:24:11Z
 loc:
   Rust:
-    code: 336
-    comments: 0
-    blanks: 86
-    files: 6
-  Sh:
-    code: 31
-    comments: 3
-    blanks: 10
-    files: 3
+    code: 559
+    comments: 2
+    blanks: 112
+    files: 8
   Toml:
-    code: 25
+    code: 29
     comments: 0
-    blanks: 4
+    blanks: 5
+    files: 1
+  Sh:
+    code: 18
+    comments: 2
+    blanks: 0
     files: 1
   Markdown:
     code: 0
-    comments: 607
-    blanks: 133
-    files: 2
+    comments: 627
+    blanks: 138
+    files: 3
 total:
-  code: 392
-  comments: 633
-  blanks: 239
-  files: 12
+  code: 606
+  comments: 656
+  blanks: 261
+  files: 13
 ---
 date: "2026-11-16"
 repo:
