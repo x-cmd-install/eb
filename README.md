@@ -14,14 +14,14 @@ x install eb
 
 ## Code insight
 
-Total: **392** lines of code across **12** files in the top 5 languages.
+Total: **606** lines of code across **13** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 336 | 0 | 86 | 6 |
-| Sh | 31 | 3 | 10 | 3 |
-| Toml | 25 | 0 | 4 | 1 |
-| Markdown | 0 | 607 | 133 | 2 |
+| Rust | 559 | 2 | 112 | 8 |
+| Toml | 29 | 0 | 5 | 1 |
+| Sh | 18 | 2 | 0 | 1 |
+| Markdown | 0 | 627 | 138 | 3 |
 
 ## OpenSSF Scorecard
 
@@ -41,7 +41,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.5.0` (2021-10-04)
-- **Last commit**: 2026-11-13
+- **Last commit**: 2026-11-27
 
 ## Popularity
 
@@ -49,18 +49,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 11 · **Merged PRs**: 214 · **Open PRs**: 12 · **Closed issues**: 8 · **Open issues**: 8 · **Commits**: 539
+- **Releases**: 11 · **Merged PRs**: 217 · **Open PRs**: 9 · **Closed issues**: 10 · **Open issues**: 6 · **Commits**: 545
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 1 | 8 | 0 | 0 | 3 |
-| last60d | 2026-09-28 | 0 | 1 | 9 | 0 | 0 | 3 |
-| 90d | 2026-08-29 | 0 | 1 | 10 | 0 | 0 | 3 |
-| last180d | 2026-05-31 | 0 | 8 | 10 | 0 | 0 | 15 |
-| 360d | 2025-12-02 | 0 | 9 | 10 | 0 | 0 | 15 |
-| last720d | 2024-12-07 | 0 | 16 | 12 | 1 | 0 | 53 |
+| 30d | 2026-10-29 | 0 | 4 | 5 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 0 | 4 | 6 | 0 | 0 | 0 |
+| 90d | 2026-08-30 | 0 | 4 | 7 | 0 | 0 | 0 |
+| last180d | 2026-06-01 | 0 | 11 | 7 | 0 | 0 | 0 |
+| 360d | 2025-12-03 | 0 | 12 | 7 | 0 | 0 | 0 |
+| last720d | 2024-12-08 | 0 | 19 | 9 | 1 | 0 | 59 |
 
 ## Improve this data
 
@@ -71,4 +71,4 @@ Install metadata for eb lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:04:19Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:24:31Z._
